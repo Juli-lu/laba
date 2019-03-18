@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff669900">
+
+    <TextView
+        android:id="@+id/tw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Иванова"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:padding="10pt"
+        android:layout_gravity="center"
+        android:textSize="12pt"/>
+
+    <TextView
+        android:id="@+id/tw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Юлия"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:padding="10pt"
+        android:layout_gravity="center"
+        android:textSize="12pt"/>
+
+    <TextView
+        android:id="@+id/tw3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Олеговна"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:padding="10pt"
+        android:layout_gravity="center"
+        android:textSize="12pt"/>
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginRight="95dp"
+        android:background="#ffffff"
+        android:onClick="Back"
+        android:text="Назад"
+        android:textColor="#ff0099cc"
+        android:textSize="30dp" />
+
+</LinearLayout>
